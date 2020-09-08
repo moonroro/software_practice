@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="ltHm4e1IcNd">
+  <start-date>2020-09-07T00:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <name/>
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+    </schedule>
+    <child-resource idref="r1"/>
+    <child-resource idref="r2"/>
+    <child-resource idref="r3"/>
+    <child-resource idref="r4"/>
+    <child-resource idref="r5"/>
+    <child-resource idref="r6"/>
+    <child-resource idref="r7"/>
+    <child-resource idref="r8"/>
+    <child-resource idref="r9"/>
+  </resource>
+  <resource id="r1">
+    <name>蒋东旭</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r2">
+    <name>邱瑞亨</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r3">
+    <name>柯航</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r4">
+    <name>孙少卿</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r5">
+    <name>陈家辉</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r6">
+    <name>程彤</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r7">
+    <name>陈雨</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r8">
+    <name>张学庆</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r9">
+    <name>小组全体成员</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t10"/>
+    <child-task idref="t11"/>
+  </task>
+  <task id="t1">
+    <title>第一周（9.7～9.10）</title>
+    <type>group</type>
+    <start-constraint-date>2020-09-07T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t12"/>
+    <child-task idref="t13"/>
+    <child-task idref="t19"/>
+    <child-task idref="t14"/>
+    <start-no-earlier-than>2020-09-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t10">
+    <title>第二周（9.11～9.17）</title>
+    <type>group</type>
+    <start-constraint-date>2020-09-11T06:30:00.000Z</start-constraint-date>
+    <child-task idref="t34"/>
+    <child-task idref="t28"/>
+    <child-task idref="t33"/>
+    <child-task idref="t37"/>
+    <prerequisite-task idref="t1"/>
+    <start-no-earlier-than>2020-09-11T06:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t11">
+    <title>第三周（9.18～9.24）｜｜大致计划</title>
+    <type>group</type>
+    <start-constraint-date>2020-09-17T16:00:00.000Z</start-constraint-date>
+    <child-task idref="t15"/>
+    <child-task idref="t35"/>
+    <child-task idref="t16"/>
+    <child-task idref="t17"/>
+    <child-task idref="t18"/>
+    <prerequisite-task idref="t10"/>
+    <start-no-earlier-than>2020-09-17T16:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t12">
+    <title>成立小组&amp;&amp;确定选题（开始）</title>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2020-09-07T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2020-09-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t13">
+    <title>需求分析</title>
+    <effort>18000</effort>
+    <effort-done>18000</effort-done>
+    <start-constraint-date>2020-09-07T00:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t12"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2020-09-07T00:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t14">
+    <title>需求明确、任务细化</title>
+    <type>group</type>
+    <start-constraint-date>2020-09-08T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t23"/>
+    <child-task idref="t21"/>
+    <child-task idref="t20"/>
+    <child-task idref="t22"/>
+    <child-task idref="t27"/>
+    <child-task idref="t25"/>
+    <child-task idref="t26"/>
+    <child-task idref="t24"/>
+    <prerequisite-task idref="t19"/>
+    <start-no-earlier-than>2020-09-08T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t15">
+    <title>需求补充</title>
+    <effort>28800</effort>
+    <start-constraint-date>2020-09-08T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2020-09-08T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t16">
+    <title>软件测试</title>
+    <effort>28800</effort>
+    <start-constraint-date>2020-09-08T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t35"/>
+    <start-no-earlier-than>2020-09-08T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t17">
+    <title>软件汇报</title>
+    <effort>28800</effort>
+    <start-constraint-date>2020-09-08T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t16"/>
+    <start-no-earlier-than>2020-09-08T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t18">
+    <title>结束</title>
+    <effort>28800</effort>
+    <start-constraint-date>2020-09-21T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2020-09-21T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t19">
+    <title>人员分工</title>
+    <effort>4500</effort>
+    <effort-done>4500</effort-done>
+    <start-constraint-date>2020-09-07T06:30:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t13"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2020-09-07T06:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t20">
+    <title>需求分析文档</title>
+    <effort>28800</effort>
+    <start-constraint-date>2020-09-07T16:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t23"/>
+    <assignment idref="r8"/>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2020-09-07T16:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t21">
+    <title>项目管理安排</title>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <start-constraint-date>2020-09-07T16:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t23"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2020-09-07T16:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t22">
+    <title>项目会议记录</title>
+    <effort>28800</effort>
+    <start-constraint-date>2020-09-08T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t23"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2020-09-08T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t23">
+    <title>文档规范</title>
+    <effort>10800</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2020-09-08T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2020-09-08T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t24">
+    <title>首周汇报展示</title>
+    <effort>28800</effort>
+    <start-constraint-date>2020-09-09T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t26"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2020-09-09T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t25">
+    <title>概要设计</title>
+    <effort>28800</effort>
+    <start-constraint-date>2020-09-08T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t23"/>
+    <assignment idref="r3"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2020-09-08T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t26">
+    <title>ppt制作</title>
+    <effort>18000</effort>
+    <start-constraint-date>2020-09-09T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t20"/>
+    <prerequisite-task idref="t21"/>
+    <prerequisite-task idref="t22"/>
+    <prerequisite-task idref="t25"/>
+    <prerequisite-task idref="t27"/>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2020-09-09T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t27">
+    <title>项目预算安排</title>
+    <effort>28800</effort>
+    <start-constraint-date>2020-09-07T16:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t23"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2020-09-07T16:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t28">
+    <title>程序编码</title>
+    <type>group</type>
+    <start-constraint-date>2020-09-12T01:00:00.000Z</start-constraint-date>
+    <child-task idref="t29"/>
+    <child-task idref="t30"/>
+    <child-task idref="t31"/>
+    <prerequisite-task idref="t34"/>
+    <start-no-earlier-than>2020-09-12T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t29">
+    <title>输入接口设计</title>
+    <effort>144000</effort>
+    <assignment idref="r3"/>
+    <assignment idref="r2"/>
+  </task>
+  <task id="t30">
+    <title>网络攻击数据筛选</title>
+    <effort>230400</effort>
+    <assignment idref="r8"/>
+    <assignment idref="r6"/>
+    <assignment idref="r7"/>
+  </task>
+  <task id="t31">
+    <title>数据到图像的处理</title>
+    <effort>259200</effort>
+    <assignment idref="r1"/>
+    <assignment idref="r4"/>
+    <assignment idref="r5"/>
+  </task>
+  <task id="t33">
+    <title>软件系统测设计</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t28"/>
+  </task>
+  <task id="t34">
+    <title>数据结构设计</title>
+    <effort>28800</effort>
+    <assignment idref="r9"/>
+  </task>
+  <task id="t35">
+    <title>功能扩展</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t15"/>
+  </task>
+  <task id="t37">
+    <title>中期汇报</title>
+    <effort>28800</effort>
+    <start-constraint-date>2020-09-17T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t33"/>
+    <start-no-earlier-than>2020-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color space="srgb" r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>

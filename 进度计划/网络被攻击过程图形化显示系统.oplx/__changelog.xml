@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="蒋东旭" date="2020-09-08T12:43:43.064Z" timestamp="2020-09-08T12:43:43.064Z">
+    <change idref="t10" to="t-1" to-position="1" resolved="yes">
+      <change idref="t10" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t10" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-07T00:00:00.000Z"/>
+      <change idref="t10" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t10" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t10" attribute="title" type="string" to="第二周"/>
+    </change>
+    <change idref="t11" to="t-1" to-position="2" resolved="yes">
+      <change idref="t11" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t11" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t11" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t11" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t11" attribute="title" type="string" to="第三周"/>
+    </change>
+    <change idref="t1" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="noEarlierThanConstrainedTaskEnd" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t1" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t1" attribute="title" type="string" from="Task 1" to="第一周" resolved="yes"/>
+    <change idref="t1" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t1" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t1" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t12" to="t1" to-position="0" resolved="yes">
+      <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-08T00:00:00.000Z"/>
+      <change idref="t12" attribute="title" type="string" to="成立小组&amp;&amp;确定选题"/>
+    </change>
+    <change idref="t13" to="t1" to-position="1" resolved="yes">
+      <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-08T00:00:00.000Z"/>
+      <change idref="t13" attribute="title" type="string" to="需求分析"/>
+    </change>
+    <change idref="t14" to="t1" to-position="2" resolved="yes">
+      <change idref="t14" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-08T00:00:00.000Z"/>
+      <change idref="t14" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="蒋东旭" date="2020-09-08T12:43:43.164Z" timestamp="2020-09-08T12:43:43.164Z">
+    <change idref="t1" attribute="noEarlierThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t1" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-07T00:00:00.000Z" resolved="yes"/>
+    <change idref="t19" to="t1" to-position="2" resolved="yes">
+      <change idref="t19" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t19" attribute="internalPrerequisitesString" type="string" from="" to="13FS"/>
+      <change idref="t19" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-08T00:00:00.000Z"/>
+      <change idref="t19" attribute="title" type="string" to="人员分工"/>
+    </change>
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-07T00:00:00.000Z" to="2020-09-07T01:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t11" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t11" attribute="isSplittableTask" type="real" from="0" resolved="yes"/>
+    <change idref="t11" attribute="taskType" type="real" from="1" to="2" resolved="yes"/>
+    <change idref="t11" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t11" attribute="percentCompleteForMilestone" type="real" from="0" resolved="yes"/>
+    <change idref="t11" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t11" attribute="effort" type="real" from="0" resolved="yes"/>
+    <change idref="t11" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t11" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t11" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t11" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t11" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t15" to="t11" to-position="0" resolved="yes">
+      <change idref="t15" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-08T00:00:00.000Z"/>
+      <change idref="t15" attribute="title" type="string" to="需求补充"/>
+    </change>
+    <change idref="t16" to="t11" to-position="1" resolved="yes">
+      <change idref="t16" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-08T00:00:00.000Z"/>
+      <change idref="t16" attribute="title" type="string" to="软件测试"/>
+    </change>
+    <change idref="t17" to="t11" to-position="2" resolved="yes">
+      <change idref="t17" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-08T00:00:00.000Z"/>
+      <change idref="t17" attribute="title" type="string" to="软件汇报"/>
+    </change>
+    <change idref="t18" to="t11" to-position="3" resolved="yes">
+      <change idref="t18" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-08T00:00:00.000Z"/>
+      <change idref="t18" attribute="title" type="string" to="结束"/>
+    </change>
+    <change idref="t12" attribute="title" type="string" from="成立小组&amp;&amp;确定选题" to="成立小组&amp;&amp;确定选题（开始）" resolved="yes"/>
+    <change idref="t12" attribute="effort" type="real" from="28800" to="1800" resolved="yes"/>
+    <change idref="t13" attribute="internalPrerequisitesString" type="string" from="" to="12FS" resolved="yes"/>
+    <change idref="t13" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t13" attribute="effort" type="real" from="28800" to="18000" resolved="yes"/>
+    <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-08T00:00:00.000Z" to="2020-09-07T08:30:00.000Z" resolved="yes"/>
+    <change idref="t14" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t14" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t14" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t14" attribute="internalPrerequisitesString" type="string" from="" to="19FS" resolved="yes"/>
+    <change idref="t14" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t14" attribute="title" type="string" from="Task 1" to="需求明确、任务细化" resolved="yes"/>
+    <change idref="t14" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t14" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t14" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t14" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t14" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t14" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-08T00:00:00.000Z" to="2020-09-09T00:00:00.000Z" resolved="yes"/>
+    <change idref="t14" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t14" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t14" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t20" to="t14" to-position="0" resolved="yes">
+      <change idref="t20" attribute="effort" type="real" from="28800" to="29700"/>
+      <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-09T00:00:00.000Z"/>
+      <change idref="t20" attribute="title" type="string" to="需求分析文档"/>
+    </change>
+    <change idref="t21" to="t14" to-position="1" resolved="yes">
+      <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-09T00:00:00.000Z"/>
+      <change idref="t21" attribute="title" type="string" to="项目管理安排"/>
+    </change>
+    <change idref="t22" to="t14" to-position="2" resolved="yes">
+      <change idref="t22" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-09T00:00:00.000Z"/>
+      <change idref="t22" attribute="title" type="string" to="项目会议记录"/>
+    </change>
+    <change idref="t23" to="t14" to-position="3" resolved="yes">
+      <change idref="t23" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-09T00:00:00.000Z"/>
+      <change idref="t23" attribute="title" type="string" to="文档规范"/>
+    </change>
+    <change idref="t25" to="t14" to-position="4" resolved="yes">
+      <change idref="t25" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-09T00:00:00.000Z"/>
+      <change idref="t25" attribute="title" type="string" to="概要设计"/>
+    </change>
+    <change idref="t26" to="t14" to-position="5" resolved="yes">
+      <change idref="t26" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-09T00:00:00.000Z"/>
+      <change idref="t26" attribute="title" type="string" to="ppt制作"/>
+    </change>
+    <change idref="t24" to="t14" to-position="6" resolved="yes">
+      <change idref="t24" attribute="internalPrerequisitesString" type="string" from="" to="20FS, 21FS, 22FS, 23FS, 25FS, 26FS"/>
+      <change idref="t24" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-09T00:00:00.000Z"/>
+      <change idref="t24" attribute="title" type="string" to="首周汇报展示"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="蒋东旭" date="2020-09-08T13:12:00.449Z" timestamp="2020-09-08T13:12:00.449Z">
+    <change idref="t1" attribute="title" type="string" from="第一周" to="第一周（9.7～9.11）" resolved="yes"/>
+    <change idref="t10" attribute="internalPrerequisitesString" type="string" from="" to="1FS" resolved="yes"/>
+    <change idref="t10" attribute="title" type="string" from="第二周" to="第二周（9.12～9." resolved="yes"/>
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-07T01:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="internalPrerequisitesString" type="string" from="" to="10FS" resolved="yes"/>
+    <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-08T00:00:00.000Z" to="2020-09-07T00:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="internalEffortDone" type="real" from="0" to="1800" resolved="yes"/>
+    <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-07T08:30:00.000Z" resolved="yes"/>
+    <change idref="t13" attribute="internalEffortDone" type="real" from="0" to="18000" resolved="yes"/>
+    <change idref="t14" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-09T00:00:00.000Z" to="2020-09-08T00:00:00.000Z" resolved="yes"/>
+    <change idref="t23" from="t14" from-position="3" to="t14" to-position="0" resolved="yes"/>
+    <change idref="t19" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-08T00:00:00.000Z" resolved="yes"/>
+    <change idref="t19" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
+    <change idref="t20" attribute="internalPrerequisitesString" type="string" from="" to="23FS" resolved="yes"/>
+    <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-09T00:00:00.000Z" to="2020-09-08T00:00:00.000Z" resolved="yes"/>
+    <change idref="t21" attribute="internalPrerequisitesString" type="string" from="" to="23FS" resolved="yes"/>
+    <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-09T00:00:00.000Z" to="2020-09-08T00:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="internalPrerequisitesString" type="string" from="" to="23FS" resolved="yes"/>
+    <change idref="t22" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-09T00:00:00.000Z" to="2020-09-08T00:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="effort" type="real" from="28800" to="10800" resolved="yes"/>
+    <change idref="t23" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-09T00:00:00.000Z" to="2020-09-08T00:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="internalEffortDone" type="real" from="0" to="10800" resolved="yes"/>
+    <change idref="t24" attribute="internalPrerequisitesString" type="string" from="20FS, 21FS, 22FS, 23FS, 25FS, 26FS" to="26FS" resolved="yes"/>
+    <change idref="t25" attribute="internalPrerequisitesString" type="string" from="" to="23FS" resolved="yes"/>
+    <change idref="t25" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-09T00:00:00.000Z" to="2020-09-08T00:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="internalPrerequisitesString" type="string" from="" to="20FS, 21FS, 22FS, 25FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="蒋东旭" date="2020-09-08T13:56:05.896Z" timestamp="2020-09-08T13:56:05.896Z">
+    <change idref="t1" attribute="title" type="string" from="第一周（9.7～9.11）" to="第一周（9.7～9.10）"/>
+    <change idref="t10" attribute="isGroup" type="real" from="0" to="1"/>
+    <change idref="t10" attribute="multiResourceWorkType" type="real" from="0"/>
+    <change idref="t10" attribute="isSplittableTask" type="real" from="0"/>
+    <change idref="t10" attribute="taskType" type="real" from="1" to="2"/>
+    <change idref="t10" attribute="title" type="string" from="第二周（9.12～9." to="第二周（9.11～9.17）"/>
+    <change idref="t10" attribute="resourceAssignmentType" type="real" from="0"/>
+    <change idref="t10" attribute="percentCompleteForMilestone" type="real" from="0"/>
+    <change idref="t10" attribute="staticCost" type="real" from="0"/>
+    <change idref="t10" attribute="effort" type="real" from="0"/>
+    <change idref="t10" attribute="isSplitChunk" type="real" from="0"/>
+    <change idref="t10" attribute="scheduleType" type="real" from="0"/>
+    <change idref="t10" attribute="internalAssignments" type="string" from=""/>
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-11T06:30:00.000Z"/>
+    <change idref="t10" attribute="isSplitTask" type="real" from="0"/>
+    <change idref="t10" attribute="internalEffortDone" type="real" from="0"/>
+    <change idref="t34" to="t10" to-position="0">
+      <change idref="t34" attribute="internalAssignments" type="string" from="" to="9"/>
+      <change idref="t34" attribute="title" type="string" to="数据结构设计"/>
+    </change>
+    <change idref="t28" to="t10" to-position="1">
+      <change idref="t28" attribute="internalPrerequisitesString" type="string" from="" to="34FS"/>
+      <change idref="t28" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t28" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-12T01:00:00.000Z"/>
+      <change idref="t28" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t28" attribute="title" type="string" to="程序编码"/>
+    </change>
+    <change idref="t33" to="t10" to-position="2">
+      <change idref="t33" attribute="internalPrerequisitesString" type="string" from="" to="28FS"/>
+      <change idref="t33" attribute="title" type="string" to="软件系统测设计"/>
+    </change>
+    <change idref="t37" to="t10" to-position="3">
+      <change idref="t37" attribute="internalPrerequisitesString" type="string" from="" to="33FS"/>
+      <change idref="t37" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-17T00:00:00.000Z"/>
+      <change idref="t37" attribute="title" type="string" to="中期汇报"/>
+    </change>
+    <change idref="t11" attribute="title" type="string" from="第三周" to="第三周（9.18～9.24）｜｜大致计划"/>
+    <change idref="t11" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-17T16:00:00.000Z"/>
+    <change idref="t35" to="t11" to-position="1">
+      <change idref="t35" attribute="internalPrerequisitesString" type="string" from="" to="15FS"/>
+      <change idref="t35" attribute="title" type="string" to="功能扩展"/>
+    </change>
+    <change idref="t12" attribute="internalAssignments" type="string" from="" to="9"/>
+    <change idref="t13" attribute="internalAssignments" type="string" from="" to="9"/>
+    <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-07T00:30:00.000Z"/>
+    <change idref="t21" from="t14" from-position="2" to="t14" to-position="1"/>
+    <change idref="t27" to="t14" to-position="4">
+      <change idref="t27" attribute="internalAssignments" type="string" from="" to="7"/>
+      <change idref="t27" attribute="internalPrerequisitesString" type="string" from="" to="23FS"/>
+      <change idref="t27" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-07T16:00:00.000Z"/>
+      <change idref="t27" attribute="title" type="string" to="项目预算安排"/>
+    </change>
+    <change idref="t16" attribute="internalPrerequisitesString" type="string" from="" to="35FS"/>
+    <change idref="t17" attribute="internalPrerequisitesString" type="string" from="" to="16FS"/>
+    <change idref="t18" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-08T00:00:00.000Z" to="2020-09-21T00:00:00.000Z"/>
+    <change idref="t19" attribute="effort" type="real" from="3600" to="4500"/>
+    <change idref="t19" attribute="internalAssignments" type="string" from="" to="9"/>
+    <change idref="t19" attribute="noEarlierThanConstraintDate" type="date" to="2020-09-07T06:30:00.000Z"/>
+    <change idref="t19" attribute="internalEffortDone" type="real" from="3600" to="4500"/>
+    <change idref="t20" attribute="effort" type="real" from="29700" to="28800"/>
+    <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-08T00:00:00.000Z" to="2020-09-07T16:00:00.000Z"/>
+    <change idref="t20" attribute="internalAssignments" type="string" from="" to="8; 6"/>
+    <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" from="2020-09-08T00:00:00.000Z" to="2020-09-07T16:00:00.000Z"/>
+    <change idref="t21" attribute="internalAssignments" type="string" from="" to="1"/>
+    <change idref="t21" attribute="internalEffortDone" type="real" from="0" to="28800"/>
+    <change idref="t22" attribute="internalAssignments" type="string" from="" to="7"/>
+    <change idref="t23" attribute="internalAssignments" type="string" from="" to="5"/>
+    <change idref="t24" attribute="internalAssignments" type="string" from="" to="4"/>
+    <change idref="t25" attribute="internalAssignments" type="string" from="" to="3; 2"/>
+    <change idref="t26" attribute="internalPrerequisitesString" type="string" from="20FS, 21FS, 22FS, 25FS" to="20FS, 21FS, 22FS, 25FS, 27FS"/>
+    <change idref="t26" attribute="effort" type="real" from="28800" to="18000"/>
+    <change idref="t26" attribute="internalAssignments" type="string" from="" to="5"/>
+    <change idref="t29" to="t28" to-position="0">
+      <change idref="t29" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t29" attribute="internalAssignments" type="string" from="" to="3; 2"/>
+      <change idref="t29" attribute="title" type="string" to="输入接口设计"/>
+    </change>
+    <change idref="t30" to="t28" to-position="1">
+      <change idref="t30" attribute="effort" type="real" from="28800" to="230400"/>
+      <change idref="t30" attribute="internalAssignments" type="string" from="" to="8; 6; 7"/>
+      <change idref="t30" attribute="title" type="string" to="网络攻击数据筛选"/>
+    </change>
+    <change idref="t31" to="t28" to-position="2">
+      <change idref="t31" attribute="effort" type="real" from="28800" to="259200"/>
+      <change idref="t31" attribute="internalAssignments" type="string" from="" to="1; 4; 5"/>
+      <change idref="t31" attribute="title" type="string" to="数据到图像的处理"/>
+    </change>
+  </task-change-set>
+  <resource-change-set user="蒋东旭" date="2020-09-08T12:43:43.064Z" timestamp="2020-09-08T12:43:43.064Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200" resolved="yes"/>
+    <change idref="r2" to="r-1" to-position="1" resolved="yes">
+      <change idref="r2" attribute="name" type="string" from="" to="邱瑞亨"/>
+    </change>
+    <change idref="r3" to="r-1" to-position="2" resolved="yes">
+      <change idref="r3" attribute="name" type="string" from="" to="柯航"/>
+    </change>
+    <change idref="r4" to="r-1" to-position="3" resolved="yes">
+      <change idref="r4" attribute="name" type="string" from="" to="孙少卿"/>
+    </change>
+    <change idref="r5" to="r-1" to-position="4" resolved="yes">
+      <change idref="r5" attribute="name" type="string" from="" to="陈家辉"/>
+    </change>
+    <change idref="r6" to="r-1" to-position="5" resolved="yes">
+      <change idref="r6" attribute="name" type="string" from="" to="程彤"/>
+    </change>
+    <change idref="r7" to="r-1" to-position="6" resolved="yes">
+      <change idref="r7" attribute="name" type="string" from="" to="陈雨"/>
+    </change>
+    <change idref="r8" to="r-1" to-position="7" resolved="yes">
+      <change idref="r8" attribute="name" type="string" from="" to="张学庆"/>
+    </change>
+    <change idref="r9" to="r-1" to-position="8" resolved="yes">
+      <change idref="r9" attribute="name" type="string" from="" to="小组全体成员"/>
+    </change>
+    <change idref="r1" attribute="name" type="string" from="Resource 1" to="蒋东旭" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="蒋东旭" date="2020-09-08T12:43:43.064Z" timestamp="2020-09-08T12:43:43.064Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2020-09-07T00:00:00.000Z" resolved="yes"/>
+    <change idref="m1" attribute="currencyName" type="string" to="¥1,234.56" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
