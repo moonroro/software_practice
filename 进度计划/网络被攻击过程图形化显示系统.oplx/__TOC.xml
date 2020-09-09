@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2" file-format-version="2">
-  <window x="0" y="0" w="1680" h="1007">
+  <window x="0" y="83" w="1680" h="944">
     <editing-scenario>ltHm4e1IcNd</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>348</split-view-divider-position>
-      <outline x="23" y="0" w="348" h="985">
+      <outline x="0" y="0" w="348" h="862">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="256"/>
         <column name="Effort" width="70"/>
         <expanded-items idrefs="t1 t28 t10 t14 t11"/>
-        <selected-items-at-filter-time idrefs="t21 t13 t34 t26 t18 t30 t22 t14 t35 t27 t19 t10 t31 t23 t15 t36 t28 t11 t32 t24 t16 t37 t29 t20 t12 t33 t25 t17"/>
+        <selected-items-at-filter-time idrefs="t21 t13 t34 t26 t18 t30 t22 t14 t35 t27 t19 t10 t31 t23 t15 t28 t11 t24 t16 t37 t29 t20 t12 t33 t25 t17"/>
       </outline>
-      <gantt-view x="-41" y="0" w="1330" h="985">
+      <gantt-view x="-41" y="0" w="1330" h="862">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>

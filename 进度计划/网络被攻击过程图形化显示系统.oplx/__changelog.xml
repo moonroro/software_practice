@@ -252,6 +252,11 @@
       <change idref="t31" attribute="title" type="string" to="数据到图像的处理"/>
     </change>
   </task-change-set>
+  <task-change-set user="蒋东旭" date="2020-09-09T02:03:20.459Z" timestamp="2020-09-09T02:03:20.459Z">
+    <change idref="t20" attribute="internalEffortDone" type="real" from="0" to="18000"/>
+    <change idref="t22" attribute="internalEffortDone" type="real" from="0" to="28800"/>
+    <change idref="t25" attribute="internalEffortDone" type="real" from="0" to="28800"/>
+  </task-change-set>
   <resource-change-set user="蒋东旭" date="2020-09-08T12:43:43.064Z" timestamp="2020-09-08T12:43:43.064Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200" resolved="yes"/>
     <change idref="r2" to="r-1" to-position="1" resolved="yes">
